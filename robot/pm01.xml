@@ -41,6 +41,7 @@
     <geom name="floor" pos="0 0 0" size="0 0 .05" type="plane" material="groundplane"/>
 
     <body name="link_base" pos="0 0 0.83">
+      <freejoint name="root"/>
       <geom type="mesh" rgba="0.75294 0.75294 0.75294 1" mesh="link_base"/>
       <body name="link_hip_pitch_l" pos="0.01541 0.076141 -0.061208">
         <inertial pos="0.0101086 0.045246 -0.0119649" quat="0.644148 0.745776 0.169512 -0.0125773" mass="1.68628" diaginertia="0.00232449 0.00220186 0.00200187"/>
